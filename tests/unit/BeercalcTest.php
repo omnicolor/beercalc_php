@@ -2,7 +2,7 @@
 
 namespace Beercalc;
 
-class BeercalcTest extends \PHPUnit_Framework_TestCase {
+class BeercalcTest extends \PHPUnit\Framework\TestCase {
 
   public function testABV(){
     $this->assertEquals(7.319479429051208, Beercalc::abv(1.055, 1));
